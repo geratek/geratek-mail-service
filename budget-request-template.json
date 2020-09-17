@@ -1,7 +1,7 @@
 {
     "Template": {
         "TemplateName": "geratek-budget-request",
-        "SubjectPart": "Budget request",
+        "SubjectPart": "Budget request - {{name}}",
         "TextPart": "Name: {{name}}\r\nCompany: {{company}}\r\nEmail: {{email}}\r\nTelephone: {{telephone}}\r\nMessage: {{message}}",
         "HtmlPart": "<html>\r\n    <head>\r\n        <title>Bugget request<\/title>\r\n    <\/head>\r\n    <body>\r\n        <h2>Budget request<\/h2>\r\n        <br>\r\n        <table>\r\n            <tr><td>Name: <\/td><td>{{name}}<\/td><\/tr>\r\n            <tr><td>Company: <\/td><td>{{company}}<\/td><\/tr>\r\n            <tr><td>Email: <\/td><td>{{email}}<\/td><\/tr>\r\n            <tr><td>Telephone: <\/td><td>{{telephone}}<\/td><\/tr>\r\n            <tr><td>Message: <\/td><td>{{message}}<\/td><\/tr>\r\n        <\/table>\r\n    <\/body>\r\n<\/html>"
     }
