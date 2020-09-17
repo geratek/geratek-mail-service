@@ -46,8 +46,7 @@ app.post('/send', [
             res.status(400);
             res.send('Error on email send. Please contact support.');
         } else {
-            res.status(200);
-            res.send('Email sent!');
+            res.status(200).json({ message: "Email sent!"});
         }
     })
 });
